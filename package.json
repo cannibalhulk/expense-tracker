@@ -1,0 +1,20 @@
+{
+  "name": "bun-vite-react",
+  "module": "server/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "start": "bun ./server/index.ts",
+    "dev": "bun --hot ./server/index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.2.2",
+    "hono": "^4.4.12",
+    "zod": "^3.23.8"
+  }
+}
